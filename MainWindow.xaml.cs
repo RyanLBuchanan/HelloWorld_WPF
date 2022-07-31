@@ -23,6 +23,40 @@ namespace HelloWorld_WPF
         public MainWindow()
         {
             InitializeComponent();
+
+            //// Create the StackPanel
+            //StackPanel stackPanel = new StackPanel();
+            //this.Content = stackPanel;
+
+            //// Create the Button
+            //Button button = new Button();
+            //button.Content = "Click me, three!";
+            //button.HorizontalAlignment = HorizontalAlignment.Left;
+            //button.Margin = new Thickness(150);
+            //button.VerticalAlignment = VerticalAlignment.Top;
+            //button.Width = 100;
+            //stackPanel.Children.Add(button);
         }
+
+        //public static readonly DependencyProperty SetTextProperty =
+        //    DependencyProperty.Register("SetText", typeof(string), typeof(UserControl), new
+        //        PropertyMetadata("", new PropertyChangedCallback(OnSetTextChanged)));
+
+        //public string SetText
+        //{
+        //    get { return (string)GetValue(SetTextProperty);  }
+        //    set { SetValue(SetTextProperty, value); }
+        //}
+
+        //private static void OnSetTextChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        //{
+        //    UserControl UserControlControl = d as UserControl;
+        //    UserControlControl.OnSetTextChanged(e);
+        //}
+
+        //private void OnSetTextChanged(DependencyPropertyChangedEventArgs e)
+        //{
+        //    tbTest.Text = e.NewValue.ToString()
+        //}
     }
 }
